@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerVD">
+   <children>
+      <ImageView fitHeight="60.0" fitWidth="67.0" layoutX="99.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Pane layoutY="-1.0" prefHeight="83.0" prefWidth="1000.0" style="-fx-background-color: #18B7BF;">
+         <children>
+            <ImageView fitHeight="62.0" fitWidth="60.0" layoutX="912.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../iiumLogo.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Text layoutX="379.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Details">
+         <font>
+            <Font name="Cambria" size="34.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="25.0" fitWidth="20.0" layoutX="51.0" layoutY="32.0" onMousePressed="#backFromVD" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../backbutton.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Pane layoutY="660.0" prefHeight="40.0" prefWidth="1000.0" style="-fx-background-color: D59F0F;" />
+      <TableView fx:id="tableview" layoutX="3.0" layoutY="110.0" prefHeight="522.0" prefWidth="994.0">
+        <columns>
+          <TableColumn fx:id="colName" prefWidth="94.0" text="Name" />
+          <TableColumn fx:id="colMatricNum" prefWidth="105.0" text="Matric Number" />
+            <TableColumn fx:id="colAddress" minWidth="0.0" prefWidth="82.0" text="Address" />
+            <TableColumn fx:id="colIC" prefWidth="88.0" text="IC" />
+            <TableColumn fx:id="colContactNo" prefWidth="190.0" text="Contact No" />
+            <TableColumn fx:id="colEmail" prefWidth="135.0" text="Email" />
+            <TableColumn fx:id="colCID" prefWidth="98.0" text="Check In Date" />
+            <TableColumn fx:id="colMahallah" prefWidth="70.0" text="Mahallah" />
+            <TableColumn fx:id="colHisbah" prefWidth="62.0" text="Hisbah" />
+            <TableColumn fx:id="colRoom" prefWidth="69.0" text="Room" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
