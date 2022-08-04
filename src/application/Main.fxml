@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="442.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../iiumLogo.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="466.0" layoutY="593.0" mnemonicParsing="false" onAction="#switchToMain2" text="Log in">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font>
+      </Button>
+      <Text layoutX="297.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mahallah Registration System">
+         <font>
+            <Font name="Cambria" size="34.0" />
+         </font>
+      </Text>
+      <Text layoutX="295.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="295.0" layoutY="496.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="usernameTF" layoutX="295.0" layoutY="424.0" prefHeight="25.0" prefWidth="442.0" promptText="Username" />
+      <PasswordField fx:id="passwordTF" layoutX="299.0" layoutY="516.0" prefHeight="25.0" prefWidth="442.0" promptText="Password" />
+      <Text fx:id="myLabel" layoutX="288.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome !" textAlignment="CENTER" wrappingWidth="488.33203125">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+      </Text>
+      <Pane prefHeight="50.0" prefWidth="1000.0" style="-fx-background-color: #18B7BF;" />
+      <Pane layoutY="650.0" prefHeight="50.0" prefWidth="1000.0" style="-fx-background-color: D59F05;" />
+   </children>
+</AnchorPane>
