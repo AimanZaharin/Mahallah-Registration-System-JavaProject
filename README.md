@@ -5,4 +5,6 @@ in International Islamic University Malaysia (IIUM) after going through the hass
 
 - Our program consists of 5 classes in total. Starting of with the Main class, we build it as a place to load the login scene. Next, the Controller class is built for Validation for the login scene and a place to access multiple scenes: Dashboard, Register Mahallah, View Details, Login and Logout. Third, the controllerAM class that stands for AddMahallah will be having a form that consists of text fields and choice boxes. We’ll be taking all the user inputs as our object arguments in this class. Our Fourth class is controllerVD that stands for View Details. Its an implementation of TableView and ObservableList to display all the added values from controllerAM class. Lastly is the Person class, which is a class to construct all our objects. Below are the UML Diagram that will show each class with more details.
 
-<center><img src = "https://user-images.githubusercontent.com/92364588/182974737-10ade56e-3a2c-4579-b0c8-f07d447891e4.png" width=900px></center>
+<p align = "center">
+<img src = "https://user-images.githubusercontent.com/92364588/182974737-10ade56e-3a2c-4579-b0c8-f07d447891e4.png" width=900px>
+</p>
