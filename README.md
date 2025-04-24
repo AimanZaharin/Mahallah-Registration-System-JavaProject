@@ -49,10 +49,6 @@ The program consists of five main classes:
 - **Person.java**  
   A model class used to construct all the required objects for the system.
 
-<p align = "center">
-<img src = "https://user-images.githubusercontent.com/92364588/182974737-10ade56e-3a2c-4579-b0c8-f07d447891e4.png" width=900px>
-</p>
-
 ---
 
 ## 📚 What I Learned
@@ -88,6 +84,10 @@ This project also serves as a way for me to **upskill** and practice:
 ## 📂 UML Diagrams & Screenshots
 
 > UML diagrams and sample screenshots are available in the `/assets` folder in this repository.
+
+<p align="center">
+  <img src="assets/uml_diagram.png" width="900px" />
+</p>
 
 ---
 
