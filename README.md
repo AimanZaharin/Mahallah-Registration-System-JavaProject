@@ -1,6 +1,6 @@
 # 🕌 Mahallah Registration System
 
-A Java-based desktop application built for my **Object-Oriented Programming (OOP)** coursework. This system was designed to modernize and improve the Mahallah (hostel) registration process at **International Islamic University Malaysia (IIUM)**.
+A Java-based desktop application built to improve and modernize the Mahallah (hostel) registration process at **International Islamic University Malaysia (IIUM)**. This project was developed as part of my journey to upskill in **Object-Oriented Programming (OOP)**.
 
 ---
 
@@ -66,13 +66,13 @@ Working on this project helped me:
 
 This Mahallah Registration System was developed with the intention of solving a real-world problem I personally encountered. It combines all essential functions into a user-friendly application that could be adapted by IIUM—or other institutions—in the future.
 
-This project was a great opportunity to apply classroom concepts to a meaningful application and has laid the foundation for building more complex systems in the future.
+This project was a great opportunity to apply practical OOP knowledge to a meaningful application and has laid the foundation for building more complex systems in the future.
 
 ---
 
 ## 🚀 Project Purpose
 
-This project also serves as a way for me to **upskill** and practice:
+This project serves as a way for me to **upskill** and practice:
 
 - Java programming
 - GUI development with JavaFX
@@ -88,6 +88,3 @@ This project also serves as a way for me to **upskill** and practice:
 <p align="center">
   <img src="assets/uml_diagram.png" width="900px" />
 </p>
-
----
-
