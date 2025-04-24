@@ -1,18 +1,93 @@
-# Mahallah Registration System
+# 🕌 Mahallah Registration System
 
-- In this project, we made a Mahallah Registration System that was inspired from our other software project. We are dedicated on fixing the Mahallah Management System 
-in International Islamic University Malaysia (IIUM) after going through the hassle of registering into a Mahallah ourselves. We sought a way to ease not only students but also the university managements using technologies that is easily acquired nowadays. From our observation, the current registration system is only picking the Mahallah. Even after picking, students still need to fill up a form during registration and rush to the Mahallah Office to re-register and pick their desired block and room. Our system combines all the needed procedure at one place.
+A Java-based desktop application built for my **Object-Oriented Programming (OOP)** coursework. This system was designed to modernize and improve the Mahallah (hostel) registration process at **International Islamic University Malaysia (IIUM)**.
 
-- Our program consists of 5 classes in total. Starting of with the Main class, we build it as a place to load the login scene. 
-- Next, the Controller class is built for Validation for the login scene and a place to access multiple scenes: Dashboard, Register Mahallah, View Details, Login and Logout. 
-- Third, the controllerAM class that stands for AddMahallah will be having a form that consists of text fields and choice boxes. We’ll be taking all the user inputs as our object arguments in this class. 
-- Our Fourth class is controllerVD that stands for View Details. Its an implementation of TableView and ObservableList to display all the added values from controllerAM class. 
-- Lastly is the Person class, which is a class to construct all our objects. Below are the UML Diagram that will show each class with more details.
+---
 
-<br></br>
+## 📌 Introduction
+
+After personally experiencing the hassle of Mahallah registration at IIUM, I was inspired to build a solution that simplifies and streamlines the process. The current system only allows students to select a Mahallah, but further steps—such as filling out a form and rushing to the Mahallah office—are still done manually.
+
+This project combines all necessary steps into one place, providing a smoother, more efficient registration experience for both students and university staff.
+
+---
+
+## 🎯 Objectives
+
+- Apply principles of object-oriented programming (OOP).
+- Implement a fully functional Java GUI application using JavaFX.
+- Practice building UML diagrams and software documentation.
+- Strengthen my understanding of Java, JavaFX, and desktop application architecture.
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+- **Java**
+- **JavaFX**
+- **Gluon Scene Builder** – used to design UI scenes.
+- **Eclipse IDE** – used to write, run, and test the Java code.
+
+---
+
+## 🧱 Project Structure
+
+The program consists of five main classes:
+
+- **Main.java**  
+  Loads the login scene and launches the application.
+
+- **Controller.java**  
+  Manages navigation, login validation, and controls access to scenes like Dashboard, Register Mahallah, View Details, Login, and Logout.
+
+- **ControllerAM.java**  
+  (Add Mahallah) Handles user input using text fields and choice boxes. This class collects and stores the inputs as objects.
+
+- **ControllerVD.java**  
+  (View Details) Displays added data using `TableView` and `ObservableList`.
+
+- **Person.java**  
+  A model class used to construct all the required objects for the system.
 
 <p align = "center">
 <img src = "https://user-images.githubusercontent.com/92364588/182974737-10ade56e-3a2c-4579-b0c8-f07d447891e4.png" width=900px>
 </p>
 
-<br></br>
+---
+
+## 📚 What I Learned
+
+Working on this project helped me:
+
+- Improve my Java programming and GUI development skills.
+- Understand and apply OOP concepts in real applications.
+- Explore the integration of Scene Builder for fast UI prototyping.
+- Enhance my technical writing and software documentation skills.
+
+---
+
+## ✅ Conclusion
+
+This Mahallah Registration System was developed with the intention of solving a real-world problem I personally encountered. It combines all essential functions into a user-friendly application that could be adapted by IIUM—or other institutions—in the future.
+
+This project was a great opportunity to apply classroom concepts to a meaningful application and has laid the foundation for building more complex systems in the future.
+
+---
+
+## 🚀 Project Purpose
+
+This project also serves as a way for me to **upskill** and practice:
+
+- Java programming
+- GUI development with JavaFX
+- Practical problem-solving
+- Documentation and UML creation
+
+---
+
+## 📂 UML Diagrams & Screenshots
+
+> UML diagrams and sample screenshots are available in the `/assets` folder in this repository.
+
+---
+
