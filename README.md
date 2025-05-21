@@ -1,10 +1,10 @@
-# 🕌 Mahallah Registration System
+# Mahallah Registration System
 
 A Java-based desktop application built to improve and modernize the Mahallah (hostel) registration process at **International Islamic University Malaysia (IIUM)**. This project was developed as part of my journey to upskill in **Object-Oriented Programming (OOP)**.
 
 ---
 
-## 📌 Introduction
+## Introduction
 
 After personally experiencing the hassle of Mahallah registration at IIUM, I was inspired to build a solution that simplifies and streamlines the process. The current system only allows students to select a Mahallah, but further steps—such as filling out a form and rushing to the Mahallah office—are still done manually.
 
@@ -12,7 +12,7 @@ This project combines all necessary steps into one place, providing a smoother, 
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Apply principles of object-oriented programming (OOP).
 - Implement a fully functional Java GUI application using JavaFX.
@@ -21,7 +21,7 @@ This project combines all necessary steps into one place, providing a smoother, 
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## Tools & Technologies Used
 
 - **Java**
 - **JavaFX**
@@ -30,7 +30,7 @@ This project combines all necessary steps into one place, providing a smoother, 
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 The program consists of five main classes:
 
@@ -51,7 +51,7 @@ The program consists of five main classes:
 
 ---
 
-## 📚 What I Learned
+## What I Learned
 
 Working on this project helped me:
 
@@ -62,7 +62,7 @@ Working on this project helped me:
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 This Mahallah Registration System was developed with the intention of solving a real-world problem I personally encountered. It combines all essential functions into a user-friendly application that could be adapted by IIUM—or other institutions—in the future.
 
@@ -70,7 +70,7 @@ This project was a great opportunity to apply practical OOP knowledge to a meani
 
 ---
 
-## 🚀 Project Purpose
+## Project Purpose
 
 This project serves as a way for me to **upskill** and practice:
 
@@ -81,7 +81,7 @@ This project serves as a way for me to **upskill** and practice:
 
 ---
 
-## 📂 UML Diagrams & Screenshots
+## UML Diagrams & Screenshots
 
 > UML diagrams and sample screenshots are available in the `/assets` folder in this repository.
 
